@@ -1,0 +1,1 @@
+all = ["dzialanie", "zwroc"]
