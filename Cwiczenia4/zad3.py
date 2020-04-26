@@ -1,4 +1,4 @@
-with open("Cwiczenia4/plikdo3.py","w") as p3: # dlaczego tworzy plik poza tym folderem?
+with open("Cwiczenia4/plikdo3.py","w") as p3: 
     tekst = input('WPISZ TEKST DO PLIKU: ')
     p3.writelines(tekst)
     
