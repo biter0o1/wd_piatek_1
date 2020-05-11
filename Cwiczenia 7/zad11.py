@@ -1,0 +1,16 @@
+import numpy as np
+
+x1 = np.arange(12)
+print(x1)
+x2 = x1.reshape(3,4)
+print("\n",x2)
+x3 = x1.reshape(4,3)
+print("\n",x3)
+x4 = x1.reshape(2,6)
+print("\n",x4)
+x5 = x3.ravel()
+print("\n",x5)
+x6 = x4.ravel()
+print("\n",x6)
+x7 = x2.ravel()
+print("\n",x7)
